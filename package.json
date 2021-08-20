@@ -1,0 +1,23 @@
+{
+  "name": "visualizar-conversa-sem-deteccao-instagram",
+  "version": "1.0.0",
+  "description": "instagram hide mode",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/luizrgf2/visualizar-conversa-sem-deteccao-instagram.git"
+  },
+  "author": "Luiz Ricardo",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/luizrgf2/visualizar-conversa-sem-deteccao-instagram/issues"
+  },
+  "homepage": "https://github.com/luizrgf2/visualizar-conversa-sem-deteccao-instagram#readme",
+  "dependencies": {
+    "dotenv": "^10.0.0",
+    "puppeteer": "^10.2.0"
+  }
+}
