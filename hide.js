@@ -57,8 +57,12 @@ async function hideVisu(){
     await page.setCookie(...cookies)
     await page.reload()
     await page.goto('https://www.instagram.com/direct/inbox/')
+<<<<<<< HEAD
     console.log(`
                  -------------------------------------------------------
+=======
+    console.log(`-------------------------------------------------------
+>>>>>>> f9e0f1045f8864ee607e173335ba7d830f2eff95
                 |                                                       |
                 |   Já é possivel ver as mensagens sem ser detectado.   |
                 |                                                       |
