@@ -63,4 +63,4 @@ async function hideVisu(){
 
 
 
-hideVisu()
+module.exports= {hideVisu}

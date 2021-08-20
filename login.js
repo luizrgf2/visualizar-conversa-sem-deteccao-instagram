@@ -60,5 +60,4 @@ async function login(){
 
 
 }
-
-login()
+ module.exports = {login}
