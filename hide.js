@@ -43,7 +43,10 @@ async function hideVisu(){
         if(request.url().includes('/seen/')){
             request.abort()
             resolve(true)
-        }else{
+        }else if(request.url().includes('/ig_sso_users/')){
+            request.abort()
+        }
+        else{
             request.continue()
         }
 
